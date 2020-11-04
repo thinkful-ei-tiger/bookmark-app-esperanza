@@ -1,7 +1,7 @@
 
 # Bookmark App
 
-[Link to Live App](https://thinkful-ei-tiger.github.io/bookmark-app-esperanza/)
+[Link to Live App](https://thinkful-ei-tiger.github.io/bookmark-app-esperanza/dist)
 
 Organize all of your bookmarks in this app. 
 You can create,rate and save your sites. 
