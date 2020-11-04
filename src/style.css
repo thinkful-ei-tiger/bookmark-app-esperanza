@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  font-size: 20px;
+  color: #600080;
+  
+  
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./cartoonplanets.jpg);
+  font-family: 'Fredoka One', sans-serif;
+}
+
+header {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  height: 140px;
+  
+}
+.error-content{
+  font-family: 'Fredoka One';
+  
+  
+}
+ 
+.header {
+  width: 200px;
+  height: 100px;
+  padding: 20px 0;
+  background-color: #AB87FF;
+  border-style: solid;
+  border-color: #fc8eac;
+  border-radius: 20px;
+  border-width: 4px;
+  box-shadow: 5px 5px 5px #6a0dad;
+  font-size: 30px;
+  text-shadow: 3px 3px  #ffe5b4;
+  font-family: 'Fredoka One', serif;  
+  text-align: center;
+  color:  #600080 ;
+  
+}
+
+
+.js-main-window, .js-main-add-bookmark {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #AB87FF;
+  width: 280px;  
+  border-radius: 20px;
+  border-width: 5px;
+  box-shadow: 7px 7px 6px #6a0dad; 
+  font-family: "Fredoka One";
+  border-style: solid;
+  border-color: #fc8eac;
+}
+
+.upper-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 270px;
+  height: 180px;
+  
+}
+
+.new-bookmark {
+  border-top-left-radius: 30px;    
+}
+
+.filter-by {
+  border-top-right-radius: 30px;
+}
+
+.new-bookmark, .filter-by {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 135px;
+  height: 140px;
+  background-color: #AB87FF;
+  
+}
+
+.bookmarks {
+  width: 270px;
+  padding: 20px 0 40px 0;  
+  border-color: #6a0dad;
+  border-style: solid none none none;
+  border-width: 2px;
+}
+
+.add-bookmark-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  padding: 20px 0 40px 0;  
+  
+}
+.label{
+  
+  font-family: "Fredoka One";
+}
+
+.add-bookmark-form fieldset {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  border-style: none;
+}
+
+.sub-cancel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+  padding: 10px 0;
+}
+
+.button-new, #js-filter, .button-del, #new-filter, .button-add-submit,
+.button-add-cancel,  #cancel-error {
+  display: inline-block;
+  height: 60px;
+  width: 90px;
+  background-color: #ffe5b4; 
+  border-color: #fc8eac;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;  
+  box-shadow: 7px 7px 6px #6a0dad; 
+  font-size: 20px;
+  text-align: center;
+  font-family: "Fredoka One", serif;
+  color: #600080;
+  
+  
+}
+
+#new-book-desc {
+  height: 200px;
+}
+.add-bookmark-form input{
+  display: inline-block;
+  height: 60px;
+  width: 90px;
+  background-color: pink; 
+  border-color: pink;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;  
+  box-shadow: 7px 7px 6px #6a0dad; 
+  font-size: 20px;
+  text-align: center;
+  font-family: "Fredoka One", serif;
+  color: #600080;
+}
+.button-del {
+  height: 35px;
+  width: 65px;
+  border-style: solid;
+  border-color: #fc8eac;
+  background-color: pink;
+}
+
+#js-filter, #new-filter {
+  text-align-last: center;
+  -webkit-appearance: none;
+  appearance: none;
+  font-family: "Fredoka One", serif;
+}
+
+#new-filter, .add-bookmark-form input {
+  width: 200px;
+  padding: 2px;
+  margin: 7px;
+  font-size: 20px;  
+}
+
+
+ul {
+  width: 270px;
+  padding: 20px 40px;
+  list-style-type: none;
+   
+}
+
+.js-bookmark-element {
+  padding: 10px 0;
+  background-color: #ffe5b4; 
+  border-radius: 10px; 
+  box-shadow: 7px 7px 6px #6a0dad; 
+}
+.highlight{
+  
+  font-size: 35px;
+  
+}
+
+
+.js-bookmark-element p, .delete-bookmark {
+  padding: 0 20px;
+  
+}
+
+.js-bookmark-element a, .js-bookmark-element p, .button-del {
+  font-size: 16px;
+}
+
+.hover:hover{
+  width: 70px;
+  border-radius: 8px;
+ background-color:  yellow;
+ justify-content: flex-start;
+}
+
+.error-content {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;  
+  background-color: #fff;
+  border-radius: 10px;
+  color: red;
+
+}
+
+h2, li, span, fieldset, input, .error-content {
+  font-size: 18px;
+  
+}
+
+option {
+  font-size: 16px;
+  background-color: white;
+}
+
+
+
+
+@media screen and (min-width: 800px) {
+  .header {
+    width: 500px;
+    font-size: 50px;
+    padding: 24px 0;
+  }
+
+  .js-main-window, .add-bookmark-form, .upper-container {
+    width: 700px;
+  }
+
+  .new-bookmark, .filter-by {
+    width: 345px;
+  }
+
+  .bookmarks {
+    width: 690px;
+  }
+
+  ul, ul .expanded {
+    width: 690px;
+  }
+
+  #new-filter, .add-bookmark-form input, .sub-cancel{
+    width: 500px;
+    font-size: 30px;    
+  }  
+
+  .button-new, #js-filter{
+    width: 170px;
+    font-size: 25px;
+  }  
+
+  .button-del {
+    width: 100px;
+    font-size: 25px;
+  }  
+
+  .js-bookmark-element a,.js-bookmark-element p, .button-del {
+    font-size: 25px;
+  }
+ 
+  .highlight{
+    font-size: 40px;
+  }
+
+  h2, li, fieldset, input, .error-content {
+    font-size: 30px;
+  }
+
+  option {
+    font-size: 25px;
+  }  
+  .label{
+    background-color: #ffe5b4;
+    border-radius: 7px; 
+    box-shadow: 7px 7px 6px #6a0dad; 
+    font-family: "Fredoka One";
+    font-size: 35px;
+  }
+  #js-filter , #new-filter{
+    font-family: "Fredoka One";
+  }
+}  
+  
